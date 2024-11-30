@@ -1,11 +1,11 @@
 from icrawler.builtin import GoogleImageCrawler
 
 
-folder_path = "E:\\Tool\\watch_images"
+folder_path = "home\\ubuntu\\dataset-image\\watch_images"
 
 google_Crawler = GoogleImageCrawler(
     storage={
-        "root_dir": "E:\\Tool\\watch_images"
+        "root_dir": "home\\ubuntu\\dataset-image\\watch_images"
     }
 )
 
